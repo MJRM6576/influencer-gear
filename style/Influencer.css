@@ -47,7 +47,9 @@
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
-    gap: 0 134px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .hero-cont{
     max-width: 582px;
@@ -67,7 +69,50 @@
     width: 440px;
     height: 414px;
 }
+.brand{
+    width: 80%;
+    max-width: 1280px;
+    height: 110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding-top: 69px;
+}
+.collection{
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.collection h2{
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.collection .sem{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #E02C6D;
+    text-align: right;
+    margin-top: 50px;
+}
+.collec-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 
+.card{
+    max-width: 329px;
+    height: 474px;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 17px 15px;
+    justify-content: center;
+}
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
 
 
 
